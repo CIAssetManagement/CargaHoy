@@ -9,4 +9,4 @@ call layoutAM.bat
 "%rutar%\R" CMD BATCH --vanilla --slave carteramodelohoy.R cargahoy_log.log
 "%rutar%\R" CMD BATCH --vanilla --slave posicionbloqueadahoy.R cargahoy_log.log
 
-"%rutasql%\mysql" -hCISM21 -u%sqluser%cism -p%sqlpwd%  < cargahoy.sql
+"%rutasql%\mysql" -hCISM21 -u%sqluser% -p%sqlpwd%  < cargahoy.sql
